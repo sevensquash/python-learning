@@ -683,37 +683,37 @@
 #     def brithday(self):
 #         print(f"{self.name} brithday is in: {self.brithday} ")
 
-class Dog:
-    def __init__(self, name, age, breed):
-        self.name = name
-        self.age = age
-        self.breed = breed
+# class Dog:
+#     def __init__(self, name, age, breed):
+#         self.name = name
+#         self.age = age
+#         self.breed = breed
 
-    def info(self):
-        print(f"{self.name} is {self.age} years old")
+#     def info(self):
+#         print(f"{self.name} is {self.age} years old")
 
-    def bark(self):
-        print(f"{self.name} can bark!")
+#     def bark(self):
+#         print(f"{self.name} can bark!")
 
-    def birthday(self):
-        self.age += 1
-        print(f"{self.name} is now {self.age} years old")
+#     def birthday(self):
+#         self.age += 1
+#         print(f"{self.name} is now {self.age} years old")
 
-Dog1 = Dog("Rufus",3,"Golden retriver")
-print(Dog1.name)
-Dog1.age = 5
-print(Dog1.age)
-print(Dog1.breed)
-Dog1.info()
-Dog1.bark()
-Dog1.birthday()
+# Dog1 = Dog("Rufus",3,"Golden retriver")
+# print(Dog1.name)
+# Dog1.age = 5
+# print(Dog1.age)
+# print(Dog1.breed)
+# Dog1.info()
+# Dog1.bark()
+# Dog1.birthday()
 
-Dog2 = Dog("Benzene",3,"husky")
-print(Dog2.name)
-print(Dog2.age)
-print(Dog2.breed)
-Dog2.info()
-Dog2.bark()
-Dog2.birthday()
+# Dog2 = Dog("Benzene",3,"husky")
+# print(Dog2.name)
+# print(Dog2.age)
+# print(Dog2.breed)
+# Dog2.info()
+# Dog2.bark()
+# Dog2.birthday()
 
-
+#decorators
