@@ -11,5 +11,5 @@ Projects:
 
 # 6-7-2026 : organized projects and files and updated my first repository, started oop(class variable,  
 #            inheritance, intro, polymorphism, duck-typing )
-# 6-8-2026 : learned about staticmethod in oop, intro to decorators
-   
+# 6-8-2026 : learned about staticmethod, classmethod and magic method in oop, intro to decorators
+# 6-9-2026 : explored concept of decorators, try, except and finally 
