@@ -16,8 +16,15 @@ def add_fudge(func):
     # add_sprinkles(fudge_wrapper) returns sprinkles_wrapper 
     # get_icream("chocolate") = sprinkles_wrapper("chocolate")
 
+def add_cone(func):
+    def wrapper(*args,**kwargs):
+        print("added cone to the ice-cream!")
+        func(*args, **kwargs)
+    return wrapper
+
 @add_sprinkles
 @add_fudge
+@add_cone
 def get_icream(flavor):
     print(f"Here is your {flavor} ice-cream!")
 
