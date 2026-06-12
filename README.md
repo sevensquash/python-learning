@@ -13,3 +13,4 @@ Projects:
 #            inheritance, intro, polymorphism, duck-typing )
 # 6-8-2026 : learned about staticmethod, classmethod and magic method in oop, intro to decorators
 # 6-9-2026 : explored concept of decorators, try, except and finally 
+# 6-12-2026 : added alarm clock and credit card validation system in projects, intro to datetime module
