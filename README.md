@@ -15,3 +15,4 @@ Projects:
 # 6-9-2026 : explored concept of decorators, try, except and finally 
 # 6-12-2026 : added alarm clock and credit card validation system in projects, intro to datetime module
 # 6-13-2026 : revised alarm clock program intro threading module
+# 6-14-2026 : Used requests module to fetch data from API and the json module to format the retrived data
