@@ -716,4 +716,153 @@
 # Dog2.bark()
 # Dog2.birthday()
 
-#decorators
+#OOB 
+
+# class Animal():
+#     def __init__(self, name, vertebrate, intelligent):
+#         self.name = name 
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+#     def eat(self):
+#         print(f"{self.name} can eat!")
+#     def sleep(self):
+#         print(f"{self.name} can sleep")
+
+# class Mammal(Animal):
+#     def __init__(self, name, vertebrate, intelligent):
+#         super().__init__(name, vertebrate, intelligent)
+#         self.name = name
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+
+# class Aves(Animal):
+#     def __init__(self, name, vertebrate, intelligent):
+#         super().__init__(name, vertebrate, intelligent)
+#         self.name = name
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+
+#     def fly(self):
+#         print(f"{self.name} can fly")
+
+#     def peck(self):
+#         print(f"{self.name} can peck.")
+
+# class Reptile(Animal):
+#     def __init__(self, name, vertebrate, intelligent):
+#         super().__init__(name, vertebrate, intelligent)
+#         self.name = name
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+
+#     def crawl(self):
+#         print(f"{self.name} can crawl in land ")
+
+#     def heat_vision(self):
+#         print(f"{self.name} has heat vision")
+
+# class Amphibian(Animal):
+#     def __init__(self, name, vertebrate, intelligent):
+#         super().__init__(name, vertebrate, intelligent)
+#         self.name = name
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+
+#     def swim(self):
+#         print(f"{self.name} can breathe and swim underwater")
+
+#     def walk(self):
+#         print(f"{self.name} can walk on land!")
+
+# class Pieses(Animal):
+#     def __init__(self, name, vertebrate, intelligent):
+#         super().__init__(name, vertebrate, intelligent)
+#         self.name = name
+#         self.vertebrate = vertebrate
+#         self.intelligent = intelligent
+
+#     def swim(self):
+#         print(f"{self.name} can swim")
+
+#     def breath_underwater(self):
+#         print(f"{self.name} can breathe underwater.")
+
+    
+
+
+# dog = Mammal("rufus",True,True)
+# dog.sleep()
+# dog.eat()
+# print(f"{dog.name} {dog.vertebrate} {dog.intelligent}")
+
+# fish = Pieses("Goldy",True,True)
+# fish.swim()
+# fish.eat()
+# print(f"{fish.name}")
+
+# seagull = Aves("Blueberry",True,True)
+# seagull.fly()
+# seagull.eat()
+# seagull.peck()
+# seagull.sleep()
+# print(f"{seagull.name}")
+
+# snake = Reptile("lush",True,True)
+# snake.crawl()
+# snake.heat_vision()
+# snake.eat()
+# snake.sleep()
+# print(f"{snake.name}")
+
+# frog = Amphibian("Grogy",True,True)
+# frog.swim()
+# frog.walk()
+# frog.sleep()
+# frog.eat()
+# print(f"{frog.name}")
+
+# threads
+
+# from threading import Thread
+# from time import sleep
+
+# def eat_chip():
+#     sleep(8)
+#     print("I eat chip")
+
+# def write():
+#     sleep(5)
+#     print("I write")
+
+# def listen_music():
+#     sleep(1)
+#     print("I listen to music")
+
+# def process_thought():
+#     sleep(3)
+#     print("I process thought")
+
+# def breathe():
+#     sleep(1.5)
+#     print("I breathe")
+
+# chore1 = Thread(target=eat_chip)
+# chore1.start()
+# chore2 = Thread(target=write)
+# chore2.start()
+# chore3 = Thread(target=listen_music)
+# chore3.start()
+# chore4 = Thread(target=process_thought)
+# chore4.start()
+# chore5 = Thread(target=breathe)
+# chore5.start()
+
+# # join = "Wait here until this thread finishes."
+# chore1.join()
+# chore2.join()
+# chore3.join()
+# chore4.join()
+# chore5.join()
+
+# sleep(1)
+# print("All the task is done!")

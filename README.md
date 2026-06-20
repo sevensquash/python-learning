@@ -16,3 +16,4 @@ Projects:
 # 6-12-2026 : added alarm clock and credit card validation system in projects, intro to datetime module
 # 6-13-2026 : revised alarm clock program intro threading module
 # 6-14-2026 : Used requests module to fetch data from API and the json module to format the retrived data
+# 6-20-2026 : started on Gui, package like PyQt5 (very vast), made my first window 
