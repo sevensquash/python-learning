@@ -8,6 +8,8 @@ Projects:
 - hangman
 - slot-machine
 - tic-tac-toe
+- alarm-clock
+- credit-validation
 
 # 6-7-2026 : organized projects and files and updated my first repository, started oop(class variable,  
 #            inheritance, intro, polymorphism, duck-typing )
@@ -17,3 +19,4 @@ Projects:
 # 6-13-2026 : revised alarm clock program intro threading module
 # 6-14-2026 : Used requests module to fetch data from API and the json module to format the retrived data
 # 6-20-2026 : started on Gui, package like PyQt5 (very vast), made my first window 
+# 6-21-2026 : Widgets are like container that gives you space to work on window
