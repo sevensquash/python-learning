@@ -20,3 +20,4 @@ Projects:
 # 6-14-2026 : Used requests module to fetch data from API and the json module to format the retrived data
 # 6-20-2026 : started on Gui, package like PyQt5 (very vast), made my first window 
 # 6-21-2026 : Widgets are like container that gives you space to work on window
+# 6-22-2026 : made a button that calls an event when clicked in window with PyQt5 (QPushButton)
