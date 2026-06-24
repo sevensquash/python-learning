@@ -21,3 +21,4 @@ Projects:
 # 6-20-2026 : started on Gui, package like PyQt5 (very vast), made my first window 
 # 6-21-2026 : Widgets are like container that gives you space to work on window
 # 6-22-2026 : made a button that calls an event when clicked in window with PyQt5 (QPushButton)
+# 6-24-2026 : learned about radiohead, grouping and connecting them to events 
